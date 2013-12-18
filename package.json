@@ -1,0 +1,13 @@
+{
+	"name": "devBick",
+	"description": "websiteGen",
+	"version": "0.0.1",
+	"engines": {
+	    "node": "0.11.x",
+	    "npm":  "1.2.x"
+  	},
+	"private": true,
+	"dependencies": {
+		"tweet-bliss": "x.x"
+	}
+}
