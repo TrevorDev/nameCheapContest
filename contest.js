@@ -17,7 +17,7 @@ function main(){
             
 	    if(text.match(/^\[#/)!=null){
 		includeName=false;
-            	if(text.match(/YOUR TWITTER NAME/)!=null){
+            	if(text.match(/YOUR TWITTER NAME/i)!=null){
 		    includeName = true;
 		}
 	        console.log("HITTTT");
