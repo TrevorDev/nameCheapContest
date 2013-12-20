@@ -32,7 +32,7 @@ function main(){
             }
             answerMap[text]++;
             console.log("Count - "+answerMap[text]);
-            if(answerMap[text]>=3 && ready){
+            if(answerMap[text]>=5 && ready){
                 console.log("WINNER - "+answerMap[text]);
                 setTimeout(function(){bliss.composeTweet(text, function(err){if(err){console.log(err);}console.log('Sent- '+text+  (includeName?"@TrevorDeveloper":"")    );});},6700);
                 ready = false;
